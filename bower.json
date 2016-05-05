@@ -1,6 +1,6 @@
 {
-  "name": "sequence",
-  "version": "0.0.1",
+  "name": "sequin",
+  "version": "0.0.2",
   "dependencies": {},
   "ignore": [
     "app",
