@@ -1,11 +1,7 @@
 {
   "name": "sequence",
-  "version": "0.0.0",
-  "dependencies": {
-    "jquery": "*",
-    "velocity": "~1.1.0",
-    "shadow-icons": "tolmark12/shadow-icons-js"
-  },
+  "version": "0.0.1",
+  "dependencies": {},
   "ignore": [
     "app",
     "bower_components",
@@ -17,7 +13,5 @@
     "package.json",
     "**/.*"
   ],
-  "devDependencies": {
-    "jade": "~1.6.0"
-  }
+  "devDependencies": {}
 }

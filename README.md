@@ -17,9 +17,12 @@ console.log( sequence.currentItem() ); // Prints "e"
 
 sequence.prev()
 console.log( sequence.currentItem() ); // Prints "d"
-
-
 ```
+
+## Installation
+
+`bower install --save sequin`
+
 ## Parameters
 ### totalItems
 The number of items in the sequence.
@@ -53,5 +56,4 @@ If the items in the sequence are objects, searches through the objects, and retu
 If the items in the sequence are objects, searches through the objects, and return the first one that has the specified value
 
 ### reset()
-
-Sequin = Sequin
+Resets to 0 index
