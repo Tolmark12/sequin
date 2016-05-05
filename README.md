@@ -20,8 +20,8 @@ console.log( sequence.currentItem() ); // Prints "d"
 ```
 
 ## Installation
-
 `bower install --save sequin`
+
 
 ## Parameters
 ### totalItems
