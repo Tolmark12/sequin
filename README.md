@@ -22,7 +22,6 @@ console.log( sequence.currentItem() ); // Prints "d"
 ## Installation
 `bower install --save sequin`
 
-
 ## Parameters
 ### totalItems
 The number of items in the sequence.

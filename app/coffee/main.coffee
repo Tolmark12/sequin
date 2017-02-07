@@ -56,4 +56,20 @@ class Sequin
   reset : () -> @currentItemIndex = 0
 
 
+  addItem : (item, index) ->
+    if !index?
+      index = @items.length
+    else
+      index
+    @items.splice index, 0, item
+    @totalItems++
+
+  removeItembyParam : (param, val) ->
+    @removeItemByIndex @getIndexByParam(param, val)
+
+  removeItemByIndex : (index)->
+    @items.splice index, 1
+    @totalItems--
+
+
 window.Sequin = Sequin
