@@ -68,6 +68,7 @@ class Sequin
     @removeItemByIndex @getIndexByParam(param, val)
 
   removeItemByIndex : (index)->
+    return if !index?
     @items.splice index, 1
     @totalItems--
 

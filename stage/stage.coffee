@@ -15,7 +15,7 @@ hashExample = ()->
   sequence = new Sequin( ar )
   sequence.addItem {id:"last"}          # Add to the end of the list
   sequence.addItem {id:"b.2"}, 2        # Add at third position
-  sequence.removeItembyParam 'id', 'c'  #remove item with an `id` == `c`
+  sequence.removeItembyParam 'id', 'casdf'  #remove item with an `id` == `c`
   console.log sequence.items
 
 hashExample()
